@@ -1,0 +1,5 @@
+12) Filter Out Poisoned Sources of Weather Data
+
+Difficulty: 
+Use the data supplied in the Zeek JSON logs to identify the IP addresses of attackers poisoning Santa's flight mapping software. Block the 100 offending sources of information to guide Santa's sleigh through the attack. Submit the Route ID ("RID") success value that you're given. For hints on achieving this objective, please visit the Sleigh Shop and talk with Wunorse Openslae.
+https://srf.elfu.org/

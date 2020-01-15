@@ -1,0 +1,4 @@
+9) Retrieve Scraps of Paper from Server
+
+Difficulty: 4/5
+Gain access to the data on the Student Portal (https://studentportal.elfu.org/) server and retrieve the paper scraps hosted there. What is the name of Santa's cutting-edge sleigh guidance system? For hints on achieving this objective, please visit the dorm and talk with Pepper Minstix.

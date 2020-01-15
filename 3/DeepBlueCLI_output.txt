@@ -1,0 +1,512 @@
+
+
+Date    : 11/19/2019 12:22:46 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh hevergreen Administrator sgreenbells cjinglebuns 
+          tcandybaubles bbrandyleaves bevergreen lstripyleaves gchocolatewine wopenslae ltrufflefig supatree 
+          mstripysleigh pbrandyberry civysparkles sscarletpie ftwinklestockings cstripyfluff gcandyfluff smullingfluff 
+          hcandysnaps mbrandybells twinterfig civypears ygreenpie ftinseltoes smary ttinselbubbles dsparkleleaves 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:22:40 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh hevergreen Administrator sgreenbells cjinglebuns 
+          tcandybaubles bbrandyleaves bevergreen lstripyleaves gchocolatewine ltrufflefig wopenslae mstripysleigh 
+          pbrandyberry civysparkles sscarletpie ftwinklestockings cstripyfluff gcandyfluff smullingfluff hcandysnaps 
+          mbrandybells twinterfig supatree civypears ygreenpie ftinseltoes smary ttinselbubbles dsparkleleaves 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:22:34 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh Administrator sgreenbells cjinglebuns tcandybaubles 
+          bbrandyleaves bevergreen lstripyleaves gchocolatewine wopenslae ltrufflefig supatree mstripysleigh 
+          pbrandyberry civysparkles sscarletpie ftwinklestockings cstripyfluff gcandyfluff smullingfluff hcandysnaps 
+          mbrandybells twinterfig smary civypears ygreenpie ftinseltoes hevergreen ttinselbubbles dsparkleleaves 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:22:29 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh hevergreen Administrator sgreenbells cjinglebuns 
+          tcandybaubles bbrandyleaves lstripyleaves gchocolatewine wopenslae ltrufflefig supatree pbrandyberry 
+          civysparkles sscarletpie bevergreen cstripyfluff gcandyfluff smullingfluff hcandysnaps dsparkleleaves 
+          ftwinklestockings mbrandybells twinterfig civypears ygreenpie ftinseltoes smary ttinselbubbles mstripysleigh 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:22:23 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh hevergreen Administrator sgreenbells cjinglebuns 
+          tcandybaubles bbrandyleaves bevergreen lstripyleaves gchocolatewine wopenslae ltrufflefig supatree 
+          pbrandyberry civysparkles sscarletpie ftwinklestockings cstripyfluff gcandyfluff smullingfluff hcandysnaps 
+          dsparkleleaves mbrandybells twinterfig civypears ygreenpie ftinseltoes smary ttinselbubbles mstripysleigh 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:22:18 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygreenpie esparklesleigh hevergreen Administrator sgreenbells cjinglebuns tcandybaubles 
+          bbrandyleaves bevergreen lstripyleaves gchocolatewine wopenslae ltrufflefig supatree mstripysleigh 
+          pbrandyberry civysparkles sscarletpie ftwinklestockings cstripyfluff gcandyfluff ygoldentrifle smullingfluff 
+          hcandysnaps mbrandybells twinterfig civypears ftinseltoes smary ttinselbubbles dsparkleleaves 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:22:13 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh Administrator sgreenbells cjinglebuns tcandybaubles 
+          bbrandyleaves bevergreen lstripyleaves gchocolatewine ltrufflefig wopenslae mstripysleigh pbrandyberry 
+          civysparkles sscarletpie ftwinklestockings cstripyfluff gcandyfluff smullingfluff hcandysnaps mbrandybells 
+          twinterfig supatree smary civypears ygreenpie ftinseltoes hevergreen ttinselbubbles dsparkleleaves 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:22:07 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh hevergreen Administrator sgreenbells cjinglebuns 
+          tcandybaubles bbrandyleaves bevergreen lstripyleaves gchocolatewine wopenslae ltrufflefig supatree 
+          pbrandyberry civysparkles sscarletpie ftwinklestockings cstripyfluff gcandyfluff smullingfluff hcandysnaps 
+          dsparkleleaves mbrandybells twinterfig civypears ygreenpie ftinseltoes smary ttinselbubbles mstripysleigh 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:22:02 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh hevergreen Administrator sgreenbells cjinglebuns 
+          tcandybaubles bbrandyleaves lstripyleaves gchocolatewine wopenslae ltrufflefig supatree pbrandyberry 
+          civysparkles sscarletpie bevergreen cstripyfluff gcandyfluff smullingfluff hcandysnaps dsparkleleaves 
+          ftwinklestockings mbrandybells twinterfig civypears ygreenpie ftinseltoes smary ttinselbubbles mstripysleigh 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:21:56 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh hevergreen Administrator sgreenbells cjinglebuns 
+          tcandybaubles bbrandyleaves bevergreen lstripyleaves gchocolatewine wopenslae ltrufflefig supatree 
+          mstripysleigh pbrandyberry civysparkles sscarletpie ftwinklestockings cstripyfluff gcandyfluff smullingfluff 
+          hcandysnaps mbrandybells twinterfig civypears ygreenpie ftinseltoes smary ttinselbubbles dsparkleleaves 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:21:51 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh hevergreen Administrator sgreenbells cjinglebuns 
+          tcandybaubles bbrandyleaves bevergreen lstripyleaves gchocolatewine ltrufflefig wopenslae mstripysleigh 
+          pbrandyberry civysparkles sscarletpie ftwinklestockings cstripyfluff gcandyfluff smullingfluff hcandysnaps 
+          mbrandybells twinterfig supatree civypears ygreenpie ftinseltoes smary ttinselbubbles dsparkleleaves 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 11/19/2019 12:21:46 PM
+Log     : Security
+EventID : 4648
+Message : Distributed Account Explicit Credential Use (Password Spray Attack)
+Results : The use of multiple user account access attempts with explicit credentials is an indicator of a password 
+          spray attack.
+          Target Usernames: ygoldentrifle esparklesleigh hevergreen Administrator sgreenbells cjinglebuns 
+          tcandybaubles bbrandyleaves bevergreen lstripyleaves gchocolatewine wopenslae ltrufflefig supatree 
+          mstripysleigh pbrandyberry civysparkles sscarletpie ftwinklestockings cstripyfluff gcandyfluff smullingfluff 
+          hcandysnaps mbrandybells twinterfig civypears ygreenpie ftinseltoes smary ttinselbubbles dsparkleleaves 
+          Accessing Username: -
+          Accessing Host Name: -
+          
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : Multiple admin logons for one account
+Results : Username: pminstix
+          User SID Access Count: 2
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : Multiple admin logons for one account
+Results : Username: DC1$
+          User SID Access Count: 12
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : Multiple admin logons for one account
+Results : Username: supatree
+          User SID Access Count: 2
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: ygoldentrifle
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: esparklesleigh
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: hevergreen
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: Administrator
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: sgreenbells
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: cjinglebuns
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: tcandybaubles
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: bbrandyleaves
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: bevergreen
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: lstripyleaves
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: gchocolatewine
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: wopenslae
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: ltrufflefig
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: supatree
+          Total logon failures: 76
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: mstripysleigh
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: pbrandyberry
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: civysparkles
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: sscarletpie
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: ftwinklestockings
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: cstripyfluff
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: gcandyfluff
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: smullingfluff
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: hcandysnaps
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: mbrandybells
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: twinterfig
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: civypears
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: ygreenpie
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: ftinseltoes
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: smary
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: ttinselbubbles
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of logon failures for one account
+Results : Username: dsparkleleaves
+          Total logon failures: 77
+Command : 
+Decoded : 
+
+Date    : 8/24/2019 12:00:20 AM
+Log     : Security
+EventID : 4672
+Message : High number of total logon failures for multiple accounts
+Results : Total accounts: 31
+          Total logon failures: 2386
+          
+Command : 
+Decoded : 
+
+
+

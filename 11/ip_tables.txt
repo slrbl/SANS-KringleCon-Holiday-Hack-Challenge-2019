@@ -1,0 +1,68 @@
+1. Set the default policies to DROP for the INPUT, FORWARD, and OUTPUT chains.
+2. Create a rule to ACCEPT all connections that are ESTABLISHED,RELATED on the INPUT and the OUTPUT chains.
+3. Create a rule to ACCEPT only remote source IP address 172.19.0.225 to access the local SSH server (on port 22).
+4. Create a rule to ACCEPT any source IP to the local TCP services on ports 21 and 80.
+5. Create a rule to ACCEPT all OUTPUT traffic with a destination TCP port of 80.
+6. Create a rule applied to the INPUT chain to ACCEPT all traffic from the lo interface.
+
+
+
+#1
+sudo iptables -P FORWARD DROP
+
+
+#2
+sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+sudo iptables -A OUTPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+#3
+sudo iptables -A INPUT -p tcp --dport 22 -s 172.19.0.225 -j ACCEPT
+#4
+sudo iptables -A INPUT -p tcp --dport 21 -s 0.0.0.0/0 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 80 -s 0.0.0.0/0 -j ACCEPT
+#5
+sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
+#6
+sudo iptables -A INPUT -i lo -j ACCEPT
+
+
+#1
+sudo iptables -P FORWARD DROP
+sudo iptables -P INPUT DROP
+sudo iptables -P OUTPUT DROP
+#6
+sudo iptables -A INPUT -i lo -j ACCEPT
+#2
+sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+sudo iptables -A OUTPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+#3
+sudo iptables -A INPUT -p tcp --dport 22 -s 172.19.0.225 -j ACCEPT
+#4
+sudo iptables -A INPUT -p tcp --dport 21 -s 0.0.0.0/0 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 80 -s 0.0.0.0/0 -j ACCEPT
+#5
+sudo iptables -A OUTPUT -p tcp --dport 80 -j ACCEPT
+
+
+
+xChain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere             ctstate RELATED,ESTABLISHED
+ACCEPT     tcp  --  elfuiotbracesiptables_checker.iptablesnetwork  anywhere             tcp dpt:22
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:21
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:80
+ACCEPT     all  --  anywhere             anywhere            
+ACCEPT     all  --  anywhere             anywhere             ctstate RELATED,ESTABLISHED
+ACCEPT     tcp  --  elfuiotbracesiptables_checker.iptablesnetwork  anywhere             tcp dpt:22
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:21
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:80
+ACCEPT     all  --  anywhere             anywhere            
+
+Chain FORWARD (policy DROP)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+ACCEPT     all  --  anywhere             anywhere             ctstate RELATED,ESTABLISHED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:80
+ACCEPT     all  --  anywhere             anywhere             ctstate RELATED,ESTABLISHED
+ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:80

