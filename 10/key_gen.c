@@ -1,3 +1,9 @@
+/*
+Author: walid.daboubi@gmail.com
+About: Written to solve SANS Holiday Hack 2019 challenge 10
+Date: Jan 2020
+*/
+
 #include <stdio.h>
 #include <windows.h>
 #include <strsafe.h>
