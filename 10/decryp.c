@@ -1,61 +1,86 @@
-
-#include <windows.h>
-#include <strsafe.h>
 #include <stdio.h>
-#include <tchar.h>
+#include <windows.h>
 #include <Wincrypt.h>
+#include <strsafe.h>
 #pragma comment( lib, "Advapi32.lib" )
 #pragma comment( lib, "Rpcrt4.lib" )
 #pragma comment( lib, "Ole32.lib" )
 #pragma comment( lib, "Winhttp.lib" )
 #pragma comment( lib, "Crypt32.lib" )
+
 #pragma comment(lib, "crypt32.lib")
 
-long multiply(long long x, long long y) 
-{
+#include <stdio.h>
+#include <tchar.h>
+#include <windows.h>
+#include <Wincrypt.h>
+
+
+long multiply(long long x, long long y) {
     return  (long)x * y;
 }
+
 
 void MyHandleError(LPTSTR psz)
 {
     _ftprintf(stderr, TEXT("An error occurred in the program. \n"));
     _ftprintf(stderr, TEXT("%s\n"), psz);
-    _ftprintf(stderr, TEXT("Error number %x.\n"), GetLastError());  
-} 
+    _ftprintf(stderr, TEXT("Error number %x.\n"), GetLastError());
+    //_ftprintf(stderr, TEXT("Program terminating. \n"));
+  
+} // End of MyHandleError
 
 int main()
 {
-    long timestamp = 1575665926;
-    int KEY_LENGTH = 8;
-    while (timestamp < 1575666000)
-    {
-        printf("The seed value is %i\n", timestamp);
-        long seed = timestamp;
-        long key=0;
-        char *hex_chunk="";
-        char result[16]="";
-        int len = 0;
-        BYTE DesKeyBlob[] = {
-        0x08,0x02,0x00,0x00,0x01,0x66,0x00,0x00, // BLOB header 
-        0x08,0x00,0x00,0x00,
-        0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
 
-        for (int i = 0; i < KEY_LENGTH; i++)
-        {
-            hex_chunk = "";
-            key = multiply(seed, 0x343FD);
-            key = key + 0x269EC3;
-            seed = key;
-            key = key >> 0x10;
-            key = key & 0x7FFF;
-            sprintf(hex_chunk,"%x", key);
-            strlen(hex_chunk);
-            const char* last_two = &hex_chunk[len - 2];
-            strcat(result, last_two);
-            int hex_v;
-            sscanf(last_two, "%x", &hex_v);
-            DesKeyBlob[i+12] = hex_v;
-        }
+
+  
+    int start_time, end_time;
+    printf("Enter the start timestamp value:");
+    scanf("%d", &start_time);
+    printf("Enter the end timestamp value:");
+    scanf("%d", &end_time);
+
+    long timestamp = start_time;// 1575663640;
+    int KEY_LENGTH = 8;
+    int SUCCCCESS = 0;
+
+    while (timestamp< end_time && SUCCCCESS==0)
+
+    {
+
+        printf("\nTrying the the seed value is %i\n", timestamp);
+        long seed = timestamp;
+
+    long key=0;
+    char *hex_chunk="";
+    char result[16]="";
+    BYTE DesKeyBlob[] = {
+    0x08,0x02,0x00,0x00,0x01,0x66,0x00,0x00, // BLOB header 
+    0x08,0x00,0x00,0x00,
+    0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00};
+
+    for (int i = 0; i < KEY_LENGTH; i++)
+    {
+        hex_chunk = "";
+        key = multiply(seed, 0x343FD);
+        key = key + 0x269EC3;
+        seed = key;
+        key = key >> 0x10;
+        key = key & 0x7FFF;
+        sprintf(hex_chunk,"%x", key);
+        int len = strlen(hex_chunk);
+        const char* last_two = &hex_chunk[len - 2];
+        //printf("The key value is %s\n", last_two);
+        strcat(result, last_two);
+        int hex_v;// = hex2int(last_two);
+        sscanf(last_two, "%x", &hex_v);
+        //printf("%d\n", i + 12);
+        DesKeyBlob[i+12] = hex_v;
+    }
+
+
+
 
     printf("The key value is %s\n", result);
 
@@ -68,8 +93,13 @@ int main()
     HCRYPTKEY hKey = 0;
     BYTE* pbKeyBlob = NULL;
     DWORD dwBlobLen;
+
+    
     int ret;
     LPCTSTR pszContainerName = TEXT("My Sample Key Container");
+
+
+
     if (CryptAcquireContext(
         &hProv,
         pszContainerName,
@@ -111,6 +141,13 @@ int main()
             MyHandleError(TEXT("CryptAcquireContext failed.\n"));
         }
     }
+    
+    BYTE DesKeyBlobOld[20] = {
+    0x08,0x02,0x00,0x00,0x01,0x66,0x00,0x00, // BLOB header 
+    0x08,0x00,0x00,0x00                     // key length, in bytes  // DES key with parity
+    };
+
+
 
     if (!CryptImportKey(
         hProv,
@@ -235,10 +272,15 @@ int main()
             &dwCount))
         {
             MyHandleError(
-                TEXT("Error during CryptDecrypt!\n"),
+                TEXT("Error during CryptDecrypt!"),
                 GetLastError()
             );
             goto Exit_MyDecryptFile;
+        }
+        else
+        {
+            printf("BINGO!");
+            SUCCCCESS = 1;
         }
 
         //-----------------------------------------------------------
