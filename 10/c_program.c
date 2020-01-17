@@ -165,7 +165,7 @@ int main()
     //"ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf.enc",
     hSourceFile = CreateFile(
         
-        "elfresearch.enc",
+        "ElfUResearchLabsSuperSledOMaticQuickStartGuideV1.2.pdf.enc",
         FILE_READ_DATA,
         FILE_SHARE_READ,
         NULL,
